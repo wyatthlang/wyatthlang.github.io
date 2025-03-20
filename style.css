@@ -1,0 +1,108 @@
+:root {
+    --dark-green: #537A5A;
+    --light-green: #93B7A8;
+    --battleship: #909590;
+    --outer-space: #474A48;
+    --jet: #2C302E;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    position: absolute;
+    top: 0;
+}
+
+header nav ul li a {
+    color: black !important;
+    font-size: 1.5rem !important;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a:active {
+    background-color: white;
+}
+
+header nav ul li .active {
+    background: none !important;
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url(img/taniti-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    color: white;
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+}
+
+.hero-subtitle {
+    color: white !important;
+    font-size: 2rem;
+}
+
+.about {
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.citable-image {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-right: 2rem;
+}
+
+.citable-image img {
+    width: 100%;
+    height: auto;
+}
+
+.learn-more {
+    margin-top: 5rem;
+}
+
+.learn-more img {
+    width: 100%;
+    height: auto;
+}
+
+.learn-more a {
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.learn-more a:hover {
+    text-decoration: underline;
+}
+
+.learn-more .container .row {
+    margin-top: 1rem;
+}
+
+.references {
+    margin-top: 5rem;
+    font-size: 0.75rem;
+}
