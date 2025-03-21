@@ -46,6 +46,20 @@ header nav ul li .active {
     align-items: center;
 }
 
+.hero-info-page {
+    background-image: url(img/lodging.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .hero-title {
     color: white;
     opacity: 1;
@@ -59,6 +73,7 @@ header nav ul li .active {
 .hero-subtitle {
     color: white !important;
     font-size: 2rem;
+    text-shadow: 1px 1px 2px pink;
 }
 
 .about {
@@ -69,10 +84,10 @@ header nav ul li .active {
 
 .citable-image {
     position: relative;
-    float: left;
-    width: 50%;
+    float: right;
+    width: 40%;
     height: auto;
-    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .citable-image img {
