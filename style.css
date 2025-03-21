@@ -46,8 +46,22 @@ header nav ul li .active {
     align-items: center;
 }
 
-.hero-info-page {
+.hero-food-and-lodging {
     background-image: url(img/lodging.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-fun {
+    background-image: url(img/fun.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
