@@ -64,6 +64,7 @@ header nav ul li .active {
 .about {
     margin-top: 5rem;
     overflow: hidden;
+    font-size: 1.5rem;
 }
 
 .citable-image {
@@ -77,6 +78,10 @@ header nav ul li .active {
 .citable-image img {
     width: 100%;
     height: auto;
+}
+
+.citable-image p {
+    font-size: 1rem;
 }
 
 .learn-more {
@@ -102,7 +107,43 @@ header nav ul li .active {
     margin-top: 1rem;
 }
 
-.references {
+.learn-more .container .row h4 {
+    font-size: 1.3rem;
+}
+
+.footer {
     margin-top: 5rem;
     font-size: 0.75rem;
 }
+
+footer {
+    min-height: 100%;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--dark-green);
+    color: white;
+}
+
+footer .row {
+    min-height: 100%;
+}
+
+.footer-note {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.references {
+    font-size: 0.75rem;
+}
+
+.references h3 {
+    font-size: 1rem;
+}
+
