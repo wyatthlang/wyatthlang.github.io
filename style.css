@@ -74,6 +74,19 @@ header nav ul li .active {
     overflow: hidden;
 }
 
+.hero-transportation {
+    background-image: url(img/transportation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 .hero-title {
     color: white;
     opacity: 1;
@@ -179,4 +192,3 @@ footer .row {
 .references h3 {
     font-size: 1rem;
 }
-
