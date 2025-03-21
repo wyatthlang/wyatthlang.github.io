@@ -87,6 +87,21 @@ header nav ul li .active {
     align-items: center;
     overflow: hidden;
 }
+
+.hero-faq {
+    background-image: url(img/faq.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .hero-title {
     color: white;
     opacity: 1;
