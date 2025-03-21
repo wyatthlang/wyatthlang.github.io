@@ -139,6 +139,10 @@ footer .row {
     padding: 0;
 }
 
+.footer-note a {
+    color: white;
+}
+
 .references {
     font-size: 0.75rem;
 }
